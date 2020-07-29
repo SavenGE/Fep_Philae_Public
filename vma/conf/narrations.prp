@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>VMA Narrations</comment>
+    <entry key="MR">Registration</entry>
+    <entry key="MA">Member Accounts</entry>
+    <entry key="AD">Account Details</entry>
+    <entry key="MI">Member Image</entry>
+    <entry key="LA">Loan Accounts</entry>
+    <entry key="SA">Savings Accounts</entry>
+    <entry key="CA">Capital Accounts</entry>
+    <entry key="NA">NWD Accounts</entry>
+    <entry key="LT">Loan Types</entry>
+    <entry key="ST">Statement Transactions</entry>
+    <entry key="ME">Member Eligibility</entry>
+    <entry key="BC">Branch Codes</entry>
+    <entry key="RF">Refer A Friend</entry>
+    <entry key="SB">Saving Balance</entry>
+    <entry key="CB">Capital Balance</entry>
+    <entry key="LB">Loan Balance</entry>
+    <entry key="NB">NWD Balance</entry>
+    <entry key="MS">MiniStatement</entry>
+    <entry key="DP">Deposit {MOBILE}</entry>
+    <entry key="WD">Withdrawal {MOBILE}</entry>
+    <entry key="AT">Airtime Purchase [{DETAIL}]</entry>
+    <entry key="TR">Fund Transfer [{DETAIL}]</entry>
+    <entry key="SR">Statement Request</entry>
+    <entry key="AL">Apply Loan</entry>
+    <entry key="VC">Vervee Cash Payment [{DETAIL}]</entry>
+    <entry key="GT">GOTV Payment [{DETAIL}]</entry>
+    <entry key="KP">Kenya Power Payment [{DETAIL}]</entry>
+    <entry key="KW">Kisumu Water Payment [{DETAIL}]</entry>
+    <entry key="NW">Nairobi Water Payment [{DETAIL}]</entry>
+    <entry key="NH">NHIF Payment [{DETAIL}]</entry>
+    <entry key="ZK">ZUKU Payment [{DETAIL}]</entry>
+    <entry key="MC">MultiChoice Payment [{DETAIL}]</entry>
+    <entry key="SM">StarTimes Payment [{DETAIL}]</entry>
+    <entry key="PL">PesaLink Transfer [{DETAIL}]</entry>
+    <entry key="MD">M-Pesa Deposit [{DETAIL}]</entry>	
+    <entry key="DL">Deposit To Loan [{DETAIL}]</entry>	
+    <entry key="TL">Transfer To Loan [{DETAIL}]</entry>	
+    <entry key="ML">M-Pesa To Loan [{DETAIL}]</entry>	
+    <entry key="MV">M-Pesa Verify [{DETAIL}]</entry>	
+    <entry key="PA">M-Pesa Advice [{DETAIL}]</entry>	
+    <entry key="SF">Safaricom Payment [{DETAIL}]</entry>
+    <entry key="KL">KPLC Payment [{DETAIL}]</entry>
+    <entry key="OP">Other Payment [{DETAIL}]</entry>
+    <entry key="LR">Loan Recovery [{ACCOUNT}]</entry>
+</properties>

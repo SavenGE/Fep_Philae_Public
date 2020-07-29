@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>VMA Advices</comment>
+    <entry key="ReferAFriend">Dear {NAME}, {USER} has referred you to FEP Sacco. Please visit any of our branches near you to know more about our services.</entry>
+    <entry key="MpesaDeposit">Dear {SENDER}, Your M-Pesa payment of {CURRENCY} {AMOUNT} has been deposited successfully at FEP Sacco in favour of {RECEIVER}.</entry>
+</properties>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>Result Codes</comment>
+    <entry key="00">Success</entry>
+    <entry key="XAPI_COMMON_0007">Invalid_Account</entry>
+    <entry key="ACCOUNT_0096">Invalid_Account</entry>
+    <entry key="ACCOUNT_0145">Invalid_Account</entry>
+    <entry key="PE_0200">Invalid_Account</entry>
+    <entry key="PE_0910">Insufficient_Funds</entry>
+    <entry key="PE_2042">Insufficient_Funds</entry>
+    <entry key="PE_1113">Invalid_Account</entry>
+    <entry key="PE_2113">Duplicate</entry>
+</properties>

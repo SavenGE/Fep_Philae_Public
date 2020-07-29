@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="PHilae.acx.AXLogger" datetime="Wed Jul 29 14:33:12 EAT 2020">
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'EST' ORDER BY CODE ASC</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=0</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=15</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>2 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=15 AND ROLE_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>2 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>4 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>noValueId=153</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>yesValueId=154</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>nowFieldId=67</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>sslProtocols=TLSv1.2</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>transportProtocol=smtps</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>sslEnable=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>smtpHost=smtp.gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>senderAlias=NAWIRI</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>whiteList=[*]</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>starttlsEnable=false</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>smtpAuth=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>smtpPassword=NawiriSaccO61</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>smtpUsername=gmail@gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>statementFileName=Nawiri Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>sslTrust=*</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>startDateFieldId=69</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>chargeScheme=E01</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>emailSubject=FEP Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>endDateFieldId=70</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>addressFieldId=75</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>sentDateFieldId=76</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>cycleFieldId=68</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>settings={AddressFieldId=AddressFieldId~Address Field Id, ChannelId=ChannelId~Channel Id, ChargeScheme=ChargeScheme~Charge Scheme, CycleFieldId=CycleFieldId~Cycle Field Id, EmailSubject=EmailSubject~Email Subject, EndDateFieldId=EndDateFieldId~End Date Field Id, NoValueId=NoValueId~No Value Id, NowFieldId=NowFieldId~Now Field Id, SenderAlias=SenderAlias~Sender Alias, SentDateFieldId=SentDateFieldId~Sent Date Field Id, SmtpAuth=SmtpAuth~Smtp Auth, SmtpHost=SmtpHost~Smtp Host, SmtpPassword=SmtpPassword~Smtp Password, SmtpUsername=SmtpUsername~Smtp Username, SslEnable=SslEnable~Ssl Enable, SslProtocols=SslProtocols~Ssl Protocols, SslTrust=SslTrust~Ssl Trust, StartDateFieldId=StartDateFieldId~Start Date Field Id, StarttlsEnable=StarttlsEnable~Starttls Enable, StatementFileName=StatementFileName~Statement File Name, SystemUserId=SystemUserId~System User Id, TransportProtocol=TransportProtocol~Transport Protocol, WhiteList=WhiteList~White List, YesValueId=YesValueId~Yes Value Id}</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>channelId=15</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'EST' ORDER BY CODE ASC</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=0</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=15</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=15 AND ROLE_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>2 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>noValueId=153</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>yesValueId=154</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>nowFieldId=67</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>transportProtocol=smtps</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>sslProtocols=TLSv1.2</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>sslEnable=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>smtpHost=smtp.gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>senderAlias=NAWIRI</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>whiteList=[*]</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>starttlsEnable=false</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>smtpAuth=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>smtpPassword=NawiriSaccO61</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>smtpUsername=gmail@gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>sslTrust=*</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>statementFileName=Nawiri Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>chargeScheme=E01</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>emailSubject=FEP Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>endDateFieldId=70</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>startDateFieldId=69</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>addressFieldId=75</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>sentDateFieldId=76</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>cycleFieldId=68</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>settings={AddressFieldId=AddressFieldId~Address Field Id, ChannelId=ChannelId~Channel Id, ChargeScheme=ChargeScheme~Charge Scheme, CycleFieldId=CycleFieldId~Cycle Field Id, EmailSubject=EmailSubject~Email Subject, EndDateFieldId=EndDateFieldId~End Date Field Id, NoValueId=NoValueId~No Value Id, NowFieldId=NowFieldId~Now Field Id, SenderAlias=SenderAlias~Sender Alias, SentDateFieldId=SentDateFieldId~Sent Date Field Id, SmtpAuth=SmtpAuth~Smtp Auth, SmtpHost=SmtpHost~Smtp Host, SmtpPassword=SmtpPassword~Smtp Password, SmtpUsername=SmtpUsername~Smtp Username, SslEnable=SslEnable~Ssl Enable, SslProtocols=SslProtocols~Ssl Protocols, SslTrust=SslTrust~Ssl Trust, StartDateFieldId=StartDateFieldId~Start Date Field Id, StarttlsEnable=StarttlsEnable~Starttls Enable, StatementFileName=StatementFileName~Statement File Name, SystemUserId=SystemUserId~System User Id, TransportProtocol=TransportProtocol~Transport Protocol, WhiteList=WhiteList~White List, YesValueId=YesValueId~Yes Value Id}</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>channelId=15</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'EST' ORDER BY CODE ASC</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=0</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>0 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=15</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=15 AND ROLE_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>3 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>noValueId=153</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>yesValueId=154</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>nowFieldId=67</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>transportProtocol=smtps</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>sslProtocols=TLSv1.2</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>sslEnable=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>smtpHost=smtp.gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>senderAlias=NAWIRI</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>whiteList=[*]</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>starttlsEnable=false</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>smtpAuth=true</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>smtpPassword=NawiriSaccO61</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>smtpUsername=gmail@gmail.com</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>sslTrust=*</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>statementFileName=Nawiri Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>chargeScheme=E01</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>emailSubject=FEP Account Statement</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>endDateFieldId=70</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>startDateFieldId=69</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>addressFieldId=75</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>sentDateFieldId=76</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>cycleFieldId=68</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>settings={AddressFieldId=AddressFieldId~Address Field Id, ChannelId=ChannelId~Channel Id, ChargeScheme=ChargeScheme~Charge Scheme, CycleFieldId=CycleFieldId~Cycle Field Id, EmailSubject=EmailSubject~Email Subject, EndDateFieldId=EndDateFieldId~End Date Field Id, NoValueId=NoValueId~No Value Id, NowFieldId=NowFieldId~Now Field Id, SenderAlias=SenderAlias~Sender Alias, SentDateFieldId=SentDateFieldId~Sent Date Field Id, SmtpAuth=SmtpAuth~Smtp Auth, SmtpHost=SmtpHost~Smtp Host, SmtpPassword=SmtpPassword~Smtp Password, SmtpUsername=SmtpUsername~Smtp Username, SslEnable=SslEnable~Ssl Enable, SslProtocols=SslProtocols~Ssl Protocols, SslTrust=SslTrust~Ssl Trust, StartDateFieldId=StartDateFieldId~Start Date Field Id, StarttlsEnable=StarttlsEnable~Starttls Enable, StatementFileName=StatementFileName~Statement File Name, SystemUserId=SystemUserId~System User Id, TransportProtocol=TransportProtocol~Transport Protocol, WhiteList=WhiteList~White List, YesValueId=YesValueId~Yes Value Id}</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="est" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>channelId=15</info>
+</event>

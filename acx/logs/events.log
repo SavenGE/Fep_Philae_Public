@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="PHilae.acx.AXLogger" datetime="Wed Jul 29 14:33:08 EAT 2020">
+<event realm="acx" datetime="Wed Jul 29 14:33:07 EAT 2020">
+	<info>==========<PHilae>==========</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:11 EAT 2020">
+	<query>4 Ms ~ SELECT TO_NUMBER(TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY')-(SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S02')) AS DAYS FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S769'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:11 EAT 2020">
+	<query>0 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S17'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:11 EAT 2020">
+	<query>3 Ms ~ SELECT CRNCY_ID, CRNCY_CD, INITCAP(CRNCY_NM) AS CRNCY_NM, CRNCY_POSN FROM BERHANLIVE.CURRENCY WHERE CRNCY_ID=3 AND REC_ST='A'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:11 EAT 2020">
+	<query>1 Ms ~ SELECT ERROR_CODE, ERROR_DESC FROM BERHANLIVE.ERROR_CODE_DESCRIPTION_REF ORDER BY ERROR_CODE ASC</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:14 EAT 2020">
+	<query>1 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:14 EAT 2020">
+	<query>1 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:14 EAT 2020">
+	<query>1 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:14 EAT 2020">
+	<query>1 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:14 EAT 2020">
+	<query>1 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S04'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:16 EAT 2020">
+	<info>Logging initialized @9891ms to org.eclipse.jetty.util.log.APLog</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 14:33:22 EAT 2020">
+	<info>==========<PHilae>==========</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:29 EAT 2020">
+	<info>==========<PHilae>==========</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT TO_NUMBER(TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY')-(SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S02')) AS DAYS FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S769'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S17'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT CRNCY_ID, CRNCY_CD, INITCAP(CRNCY_NM) AS CRNCY_NM, CRNCY_POSN FROM BERHANLIVE.CURRENCY WHERE CRNCY_ID=3 AND REC_ST='A'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT ERROR_CODE, ERROR_DESC FROM BERHANLIVE.ERROR_CODE_DESCRIPTION_REF ORDER BY ERROR_CODE ASC</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:34 EAT 2020">
+	<query>0 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:34 EAT 2020">
+	<query>0 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:34 EAT 2020">
+	<query>1 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:34 EAT 2020">
+	<query>0 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:34 EAT 2020">
+	<query>0 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S04'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 15:54:35 EAT 2020">
+	<info>Logging initialized @6398ms to org.eclipse.jetty.util.log.APLog</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:18 EAT 2020">
+	<info>==========<PHilae>==========</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT TO_NUMBER(TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY')-(SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S02')) AS DAYS FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD='S769'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S17'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT CRNCY_ID, CRNCY_CD, INITCAP(CRNCY_NM) AS CRNCY_NM, CRNCY_POSN FROM BERHANLIVE.CURRENCY WHERE CRNCY_ID=3 AND REC_ST='A'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT ERROR_CODE, ERROR_DESC FROM BERHANLIVE.ERROR_CODE_DESCRIPTION_REF ORDER BY ERROR_CODE ASC</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:25 EAT 2020">
+	<query>1 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:25 EAT 2020">
+	<query>1 Ms ~ SELECT TO_DATE(DISPLAY_VALUE,'DD/MM/YYYY') AS PROC_DATE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S02'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:26 EAT 2020">
+	<query>1 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:26 EAT 2020">
+	<query>0 Ms ~ SELECT SYSDATE AS SYS_DATE FROM DUAL</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:26 EAT 2020">
+	<query>1 Ms ~ SELECT PARAM_VALUE FROM BERHANLIVE.CTRL_PARAMETER WHERE PARAM_CD = 'S04'</query>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:28 EAT 2020">
+	<info>Logging initialized @10853ms to org.eclipse.jetty.util.log.APLog</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>jetty-9.4.z-SNAPSHOT; built: unknown; git: unknown; jvm 1.8.0_202-b08</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Missing mime-type resource: org/eclipse/jetty/http/mime.properties</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started o.e.j.s.h.ContextHandler@4d744eec{/vma/home,null,AVAILABLE}</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started o.e.j.s.h.ContextHandler@5914bb91{/vma/cv,null,AVAILABLE}</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Missing encoding resource: org/eclipse/jetty/http/encoding.properties</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started o.e.j.h.s.HttpSpiContextHandler@7312692e{/vma/vserve,null,AVAILABLE}</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started o.e.j.s.h.ContextHandler@78ed1b51{/vma/cb,null,AVAILABLE}</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>x509=X509@16a4cf04(philae,h=[10.10.1.89],w=[]) for SslContextFactory@16a198e7[provider=null,keyStore=file:///F:/NetBeansProjects/FEP_Philae/vma/cert/philae.ks,trustStore=file:///F:/NetBeansProjects/FEP_Philae/vma/cert/philae.ks]</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started ServerConnector@30fe1643{SSL,[ssl, http/1.1]}{0.0.0.0:8900}</info>
+</event>
+<event realm="acx" datetime="Wed Jul 29 16:20:31 EAT 2020">
+	<info>Started @14483ms</info>
+</event>

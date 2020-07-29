@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>VMA Messages</comment>
+    <entry key="00">Success</entry>
+    <entry key="Invalid_Account">Invalid Account [ {HOLDER} ]</entry>
+    <entry key="Invalid_Email">Email [ {HOLDER} ] does not match your email address at the sacco</entry>
+    <entry key="Missed_Deposit">Not Qualified, Missed or irregular deposits in the last {HOLDER} months</entry>
+    <entry key="Has_Arrears">Not Qualified, You have existing loan arrears of {CURRENCY} {HOLDER}</entry>
+    <entry key="Has_Loan">Not Qualified, You have an existing loan balance of {CURRENCY} {HOLDER}</entry>
+    <entry key="Min_Balance">Not Qualified, You must have atleast {CURRENCY} {HOLDER} non-withdrawable balance</entry>
+    <entry key="Below_Min">Invalid Amount, Amount must not be less than {CURRENCY} {HOLDER}</entry>
+    <entry key="Credit_Limit">Invalid Amount, Amount must not exceed your credit limit of {CURRENCY} {HOLDER}</entry>
+    <entry key="High_Amount">Invalid Amount, Amount per transaction must not exceed {CURRENCY} {HOLDER}</entry>
+    <entry key="Daily_Limit">Daily Limit, Total transacted amount will exceed daily limit of {CURRENCY} {HOLDER}</entry>
+    <entry key="Not_Reversible">Transaction not reversible {TXNREF}</entry>
+    <entry key="Txn_Not_Found">Transaction not found {TXNREF}</entry>
+</properties>

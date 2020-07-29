@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+    <comment>PHilae Properties</comment>
+    <entry key="DatasourceFactoryName">oracle.jdbc.pool.OracleDataSource</entry>
+    <entry key="DatabaseInactiveConnectionTimeout">120</entry>
+    <entry key="DatabaseValidateConnectionOnBorrow">Yes</entry>
+    <entry key="LockShutdown">No</entry>
+    <entry key="SuspendMailer">No</entry>
+    <entry key="CmSchemaPassword">k6MjR8pvTyTXyzD+7xngGqhDo1bvIy13</entry>
+    <entry key="DatabaseMaxPoolSize">25</entry>
+    <entry key="CmSchemaName">CHANNELMANAGERFEP</entry>
+    <entry key="SplitOnFly">Yes</entry>
+    <entry key="LanguageFieldId">55</entry>
+    <entry key="PendingTxnExpiryDays">10</entry>
+    <entry key="RestartHour">3</entry>
+    <entry key="DatabaseTimeToLiveConnectionTimeout">600</entry>
+    <entry key="YearsToKeepLogs">2</entry>
+    <entry key="AutoRestart">Yes</entry>
+    <entry key="XapiWsContext">http://localhost:9001/rubikonci/services/</entry>
+    <entry key="EnableDebug">Yes</entry>
+    <entry key="DisplayLines">1000</entry>
+    <entry key="XapiUser">biKsgfG84Onp9zM0zF2huA==</entry>
+    <entry key="TreeLogSize">1000</entry>
+    <entry key="DatabaseMaxStatements">5</entry>
+    <entry key="DisplayConsole">Yes</entry>
+    <entry key="SuspendMobile">No</entry>
+    <entry key="DatabaseMinPoolSize">5</entry>
+    <entry key="CountryCode">254</entry>
+    <entry key="SuspendAlerts">No</entry>
+    <entry key="DatabaseConnectionWaitTimeout">15</entry>
+    <entry key="DatabaseTimeoutCheckInterval">30</entry>
+    <entry key="AutoClearXapiHistory">No</entry>
+    <entry key="DefaultLanguage">EN</entry>
+    <entry key="DatabaseMaxConnectionReuseCount">200</entry>
+    <entry key="DatabaseMaxConnectionReuseTime">3600</entry>
+    <entry key="DatabaseDriverName">oracle.jdbc.driver.OracleDriver</entry>
+    <entry key="CoreSchemaName">BERHANLIVE</entry>
+    <entry key="DatabaseInitialPoolSize">5</entry>
+    <entry key="XapiPassword">ACdFgyoXow8uEp5NQ6xqXQ==</entry>
+    <entry key="DatabaseAbandonedConnectionTimeout">120</entry>
+    <entry key="DatabaseUrl">jdbc:oracle:thin:@//localhost:1521/pdbrubikon</entry>
+    <entry key="LanguageListId">41</entry>
+</properties>

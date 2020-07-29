@@ -1,0 +1,1064 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<logger class="PHilae.acx.AXLogger" datetime="Wed Jul 29 14:33:12 EAT 2020">
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>2 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'VMA' ORDER BY CODE ASC</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=172</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>2 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=45</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>homeContext=/vma/home</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeTerm=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>retryCount=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>disburseNetOfFee=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>keystoreType=PKCS12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>usersSpoolTime=2020-04-22 14:57:52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>keystorePassword=secret1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>keystoreFile=vma/cert/philae.ks</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneProducts=[289]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>keyFactoryAlgorithm=SunX509</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>secureSocketProtocol=TLSv1.2</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>marketingCampaignId=352</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>countryId=689</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>sourceOfFundId=315</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>industryId=2200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>relationshipOfficerId=1020</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>customerTypeId=771</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>schemeId=12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>nationalIdentityId=391</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>channelId=9</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>serverPort=8900</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>timeoutMinutes=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>maxClientSessions=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>0 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=9</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=9 AND ROLE_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>4 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoForbidProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeNwdPercentage=25</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoNwdPercentage=33.333</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneNwdPercentage=50</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaValidationUrl=https://dee20c1c3436.ngrok.io/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaConfirmationUrl=https://dee20c1c3436.ngrok.io/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaRegisterUrl=https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaTokenUrl=https://sandbox.safaricom.co.ke/oauth/v1/generate</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaTimeoutAction=Completed</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaConsumerSecret=vZGStQZOPYpdexFp</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaPaybillNumber=603097</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaConsumerKey=45GKYb4MgsMqws9oaGtwqQXwPK5vFmvP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>chargeScheme=V01</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>blockReasonId=761</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>approveAccountEventId=1007783</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>defaultProductId=33</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeDepositMonths=0</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoDepositMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneDepositMonths=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanDefaultPardonDays=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeBalanceMonth=1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanOneRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>operator=Spotcash</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaValidatorContext=/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>serviceName=VMA</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>riskCode=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>taxStatusId=441</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>riskClassId=552</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>purposeOfCreditId=477</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>emailContactModeId=235</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>creditPortfolioId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>creditTypeId=52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mrTitleId=261</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>msTitleId=262</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>missTitleId=263</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>defaultDistrict=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>defaultRegion=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>certificateAlias=philae</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>nationalityId=221</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>customerSegmentId=371</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>addressTypeId=61</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>openningReasonId=594</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>taxGroupId=382</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>propertyTypeId=392</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>approveApplicationEventId=1008848</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>creditRatingAgencyId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mobileContactModeId=237</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>spotcashSettlementAccount=PHilae.model.CNAccount@273e7444</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>2 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='1-01-100-FIN-1212-1212018'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>ministatementTxnCount=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoIncomeMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>MpesaSuspenseGL=PHilae.model.CNAccount@52b1beb6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>0 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=641</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>3 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-001-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaDepositGL=PHilae.model.CNAccount@53aac487</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<query>3 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-999-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanThreeProducts=[279]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>loanTwoProducts=[280]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>nwdProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>savingProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>shareProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>mpesaDepositContext=/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>customerCategory=PER</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>enableHttps=Yes</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>creditCustomScreen=CREDIT_APP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>updateMpesaUrl=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>vmaWsContext=/vma/vserve</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 14:33:12 EAT 2020">
+	<info>locale=en_US</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'VMA' ORDER BY CODE ASC</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=172</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=45</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>homeContext=/vma/home</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>maxClientSessions=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeTerm=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>retryCount=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>disburseNetOfFee=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>customerCategory=PER</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>enableHttps=Yes</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>creditCustomScreen=CREDIT_APP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>updateMpesaUrl=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>usersSpoolTime=2020-04-22 14:57:52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>vmaWsContext=/vma/vserve</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>locale=en_US</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>keystoreType=PKCS12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>keystorePassword=secret1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>keystoreFile=vma/cert/philae.ks</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>keyFactoryAlgorithm=SunX509</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>secureSocketProtocol=TLSv1.2</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>marketingCampaignId=352</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>countryId=689</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>sourceOfFundId=315</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>industryId=2200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>relationshipOfficerId=1020</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>customerTypeId=771</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>nationalIdentityId=391</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>schemeId=12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>channelId=9</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>serverPort=8900</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>timeoutMinutes=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaConsumerSecret=vZGStQZOPYpdexFp</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaRegisterUrl=https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaPaybillNumber=603097</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaConsumerKey=45GKYb4MgsMqws9oaGtwqQXwPK5vFmvP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>chargeScheme=V01</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>approveAccountEventId=1007783</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>defaultProductId=33</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>blockReasonId=761</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeDepositMonths=0</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneDepositMonths=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoDepositMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanDefaultPardonDays=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeBalanceMonth=1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>operator=Spotcash</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaValidatorContext=/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>serviceName=VMA</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>riskCode=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>taxStatusId=441</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>riskClassId=552</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>purposeOfCreditId=477</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>creditPortfolioId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>emailContactModeId=235</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>creditTypeId=52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mrTitleId=261</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>msTitleId=262</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>missTitleId=263</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>defaultDistrict=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>defaultRegion=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>certificateAlias=philae</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>nationalityId=221</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>customerSegmentId=371</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>addressTypeId=61</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>openningReasonId=594</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>taxGroupId=382</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>propertyTypeId=392</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>approveApplicationEventId=1008848</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>creditRatingAgencyId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mobileContactModeId=237</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>spotcashSettlementAccount=PHilae.model.CNAccount@329dbdbf</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='1-01-100-FIN-1212-1212018'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>ministatementTxnCount=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoIncomeMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>MpesaSuspenseGL=PHilae.model.CNAccount@e3c0e40</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=641</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-001-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaDepositGL=PHilae.model.CNAccount@4bd31064</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-999-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeProducts=[279]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoProducts=[280]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneProducts=[289]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>nwdProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>savingProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>shareProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaDepositContext=/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>0 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=9</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=9 AND ROLE_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>2 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<query>1 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneNwdPercentage=50</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoForbidProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeNwdPercentage=25</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanThreeNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoNwdPercentage=33.333</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanTwoNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaConfirmationUrl=https://dee20c1c3436.ngrok.io/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>loanOneNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaValidationUrl=https://dee20c1c3436.ngrok.io/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaTokenUrl=https://sandbox.safaricom.co.ke/oauth/v1/generate</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 15:54:33 EAT 2020">
+	<info>mpesaTimeoutAction=Completed</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>2 Ms ~ SELECT REC_ID, CODE, VALUE, MODULE, DESCRIPTION, SYS_USER, SYS_DATE FROM CHANNELMANAGERFEP.PHL_SETTING WHERE MODULE LIKE 'VMA' ORDER BY CODE ASC</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=172</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT DISTINCT VALUE FROM CHANNELMANAGERFEP.PHL_LIST WHERE VALUE IS NOT NULL AND PARENT=45</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>homeContext=/vma/home</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoTerm=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>retryCount=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>disburseNetOfFee=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>countryId=689</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>sourceOfFundId=315</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>industryId=2200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>relationshipOfficerId=1020</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>customerTypeId=771</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>nationalIdentityId=391</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>systemUserId=-99</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>schemeId=12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>serverPort=8900</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>channelId=9</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeTerm=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>maxClientSessions=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>timeoutMinutes=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>4 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>2 Ms ~ SELECT USER_ID, LOGIN_ID, BU_ID, BU_CD, BU_NAME, USER_ROLE_ID, BU_ROLE_ID, SUPERVISOR_FLAG, BUSINESS_ROLE_ID, BU_ROLE_NAME, BUSINESS_ROLE_NM, DEFAULT_ROLE_FLAG FROM BERHANLIVE.V_USER_ROLE WHERE USER_ID=-99 AND REC_ST='A'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoForbidProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeNwdPercentage=25</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoNwdPercentage=33.333</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneNwdPercentage=50</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneNwdBalance=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaValidationUrl=https://dee20c1c3436.ngrok.io/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaConfirmationUrl=https://dee20c1c3436.ngrok.io/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaRegisterUrl=https://sandbox.safaricom.co.ke/mpesa/c2b/v1/registerurl</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaTokenUrl=https://sandbox.safaricom.co.ke/oauth/v1/generate</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaTimeoutAction=Completed</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaConsumerSecret=vZGStQZOPYpdexFp</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaPaybillNumber=603097</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaConsumerKey=45GKYb4MgsMqws9oaGtwqQXwPK5vFmvP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneMinimumAmount=500</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneMaximumAmount=5000</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneTermCode=D</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>chargeScheme=V01</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>blockReasonId=761</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>approveAccountEventId=1007783</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>defaultProductId=33</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeDepositMonths=0</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoDepositMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneDepositMonths=3</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanDefaultPardonDays=180</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeBalanceMonth=1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneRecoveryDay=30</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>operator=Spotcash</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaValidatorContext=/vma/cv</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>serviceName=VMA</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>riskCode=200</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>taxStatusId=441</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>riskClassId=552</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>purposeOfCreditId=477</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>emailContactModeId=235</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>creditPortfolioId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>creditTypeId=52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mrTitleId=261</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>msTitleId=262</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>missTitleId=263</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>defaultDistrict=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>defaultRegion=Embu</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>certificateAlias=philae</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>nationalityId=221</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>customerSegmentId=371</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>addressTypeId=61</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>openningReasonId=594</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>taxGroupId=382</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>propertyTypeId=392</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>approveApplicationEventId=1008848</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>creditRatingAgencyId=11</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mobileContactModeId=237</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>spotcashSettlementAccount=PHilae.model.CNAccount@329dbdbf</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='1-01-100-FIN-1212-1212018'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>ministatementTxnCount=5</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoIncomeMonths=6</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>MpesaSuspenseGL=PHilae.model.CNAccount@e3c0e40</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=641</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-001-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaDepositGL=PHilae.model.CNAccount@4bd31064</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT C.GL_ACCT_ID, C.GL_ACCT_NO, C.ACCT_DESC, C.BU_ID, C.CREATE_DT, C.REC_ST FROM BERHANLIVE.GL_ACCOUNT C WHERE C.GL_ACCT_NO='14-01-999-103-1030007'</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanThreeProducts=[279]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanTwoProducts=[280]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>loanOneProducts=[289]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>nwdProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>savingProducts=[null]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>shareProducts=[49]</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>mpesaDepositContext=/vma/cb</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>customerCategory=PER</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>enableHttps=Yes</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>creditCustomScreen=CREDIT_APP</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>updateMpesaUrl=No</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>usersSpoolTime=2020-04-22 14:57:52</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>vmaWsContext=/vma/vserve</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>locale=en_US</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>keystoreType=PKCS12</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>keystorePassword=secret1</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>keystoreFile=vma/cert/philae.ks</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>secureSocketProtocol=TLSv1.2</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>keyFactoryAlgorithm=SunX509</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<info>marketingCampaignId=352</info>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT BU_ID, BU_NO, BU_NM, GL_PREFIX_CD, REC_ST FROM BERHANLIVE.BUSINESS_UNIT WHERE REC_ST='A' AND BU_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>2 Ms ~ SELECT CHANNEL_ID, CHANNEL_CD, CHANNEL_DESC, GL_DR_ACCT, GL_CR_ACCT, PREV_DR_LIMIT, PREV_CR_LIMIT, ORIGIN_BU_ID, REC_ST FROM BERHANLIVE.SERVICE_CHANNEL WHERE CHANNEL_ID=9</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>1 Ms ~ SELECT ROLE_ID, CRNCY_CD_ISO, PREVENTIVE_CR_LIMIT, PREVENTIVE_DR_LIMIT FROM BERHANLIVE.V_BUSINESS_ROLE_CHANNEL_LIMIT WHERE REC_ST='A' AND CHANNEL_ID=9 AND ROLE_ID=-99</query>
+</event>
+<event realm="vma" datetime="Wed Jul 29 16:20:23 EAT 2020">
+	<query>2 Ms ~ SELECT V.DRAWER_ID, V.DRAWER_NO, R.GL_ACCT_NO, R.LAST_DRAWER_OPEN_DT, V.REC_ST FROM BERHANLIVE.V_DRAWER_USER_ROLES V, BERHANLIVE.DRAWER R WHERE R.DRAWER_ID=V.DRAWER_ID AND V.BU_ID=R.BU_ID AND V.USER_ROLE_ID=-99 AND V.SYSUSER_ID=-99 AND V.DRAWER_ST='O' AND V.REC_ST='O'</query>
+</event>
