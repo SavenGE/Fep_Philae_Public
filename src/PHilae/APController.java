@@ -61,7 +61,9 @@ public class APController {
     private static final AXProperties settings = new AXProperties();
 
     private static final AXProperties codes = new AXProperties();
+    
     private static final AXProperties results = new AXProperties();
+    
     private static final AXProperties fields = new AXProperties();
 
     public static String defaultLanguage = "EN", xapiUser = "biKsgfG84Onp9zM0zF2huA==", autoClearXapiHistory = "No";
