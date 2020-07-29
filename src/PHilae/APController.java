@@ -54,7 +54,6 @@ public class APController {
 
     private static String previousKey;
     private static final String confDir = "acx/conf";
-    
     public static final String application = "PHilae";
 
     private static boolean endOfYear = false;
