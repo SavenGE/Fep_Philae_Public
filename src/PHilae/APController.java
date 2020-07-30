@@ -62,7 +62,6 @@ public class APController {
     private static final AXProperties settings = new AXProperties();
 
     private static final AXProperties codes = new AXProperties();
-    
     private static final AXProperties results = new AXProperties();    
     private static final AXProperties fields = new AXProperties();
 
